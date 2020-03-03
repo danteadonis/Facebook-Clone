@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang= "en">
+  <head>
+    <meta charset= "UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content= "ie=edge">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <meta name= "description" content= "GSE301 Project Group 4, Front End of Facebook">
+    <link rel= "stylesheet" href= "styling/bootstrap.min.css">
+    <link rel= "stylesheet" href= "plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel= "stylesheet" href= "styling/myStyle.css">
+    <title>User Home | Facebook Clone</title>
+  </head>
+  <body>
+    <nav class= "navbar navbar-expand-lg navbar-light bg-facebook-blue text-light mb-2">
+      <div class= "container-fluid">
+        <a href= "userMain.html" class= "text-light"><i class= "fa fa-facebook"></i></a>&ThickSpace; &ThickSpace;
+        <div class= "form-inline">
+          <input type= "search" name= "" class= "form-control" id= ""> &ThickSpace; <a href= "#" id= "searchIcon"> <i class= "fa fa-search"></i> </a>
+        </div>
+        <ul class= "nav navbar-nav navbar-right d-flex ml-auto">
+          <li class= "nav-item"><a href= "userProfile.html"> <img src= "images used/numbers-12.jpg" alt= "user profile picture" id= "navPic">User </a></li>
+          <li class= "nav-item active"><a href= "userMain.html">Home</a></li>
+          <li class= "nav-item"><a href= "#">Create</a></li>
+          <li class= "nav-item"><a href= "#"><i class= "fa fa-group"></i></a></li>
+          <li class= "nav-item"><a href= "#"><i class= "fa fa-envelope-open"></i></a></li>
+          <li class= "nav-item"><a href= "#"><i class= "fa fa-bell"></i></a></li>
+          <li class= "nav-item"><a href= "#"><i class= "fa fa-question"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class= "container" id= "userMain">
+      <div class= "row">
+        <!-- SIDE NAVIGATION -->
+        <div class= "col-sm-2">
+          <a class= "text-dark" href= "#"><img src= "images used/numbers-12.jpg" alt= "user profile picture" id= "sideNavPic">User</a>
+          <br> <br>
+          <div class= "card p-1">
+            <div class="d-flex sideNavItem">
+              <i class= "fa fa-feed"></i>&ThinSpace; News Feed
+            </div>
+          </div>
+          <div class= "card p-1">
+            <div class= "d-flex sideNavItem">
+              <i class= "fa fa-envelope"></i>&ThinSpace; Messenger
+            </div>
+          </div>
+          <div class= "card p-1">
+            <div class= "d-flex sideNavItem">
+              <i class= "fa fa-tv"></i>&ThinSpace; Watch
+            </div>
+          </div>
+          <br>
+          <h6 class= "text-muted"><b>Shortcuts</b></h6>
+          <div class= "card p-1">
+            <div class= "d-flex sideNavItem">
+              <i class= "fa fa-group"></i>&ThinSpace; Group Chat 1
+            </div>
+          </div>
+          <div class= "card p-1">
+            <div class= "d-flex sideNavItem">
+              <i class= "fa fa-group"></i>&ThinSpace; Group Chat 2
+            </div>
+          </div>
+          <div class= "card p-1">
+            <div class= "d-flex sideNavItem">
+              <i class= "fa fa-group"></i>&ThinSpace; Group Chat 3
+            </div>
+          </div>
+          <br>
+          <h6 class= "text-muted"><b>Explore</b></h6>
+          <div class= "card p-1">
+            <div class= "d-flex sideNavItem">
+              <i class= "fa fa-group"></i>&ThinSpace; Groups
+            </div>
+          </div>
+          <div class= "card p-1">
+            <div class= "d-flex sideNavItem">
+              <i class= "fa fa-heart"></i>&ThinSpace; Fundraisers
+            </div>
+          </div>
+          <div class= "card p-1">
+            <div class= "d-flex sideNavItem">
+              <i class= "fa fa-flag"></i>&ThinSpace; Pages
+            </div>
+          </div>
+          <div class= "card p-1">
+            <div class= "d-flex sideNavItem">
+              <i class= "fa fa-calendar"></i>&ThinSpace; Events
+            </div>
+          </div>
+          <div class= "card p-1">
+            <div class= "d-flex sideNavItem">
+              <i class= "fa fa-user"></i>&ThinSpace; Friend Lists
+            </div>
+          </div>
+          <div>
+            <a href= "#"><i class= "fa fa-chevron-down"></i> See More</a>
+          </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class= "col-sm-5">
+          <div class= "card">
+            <div class= "card-header pb-4" id= "createPostHeader"><h6 class= "text-muted"><b>Create Post</b></h6></div>
+            <div class= "card-body d-flex p-1">
+              <img src= "images used/numbers-12.jpg" alt= "user profile picture" class= "createPostPic">
+              <textarea name= "statusPost" cols= "52" rows= "3" placeholder= "What's on your mind, User?"></textarea>
+            </div>
+            <div class= "card-footer d-flex">
+              <div class= "postEnhance"><i class= "fa fa-photo"></i> Photo/Video</div>&ThickSpace; &ThickSpace;
+              <div class= "postEnhance"><i class= "fa fa-tag"></i> Tag Friends</div>&ThickSpace; &ThickSpace;
+              <div class= "postEnhance"><i class= "fa fa-smile-o"></i> Feeling/Activity</div>&ThickSpace; &ThickSpace;
+              <div class= "postEnhance"><i class= "fa fa-ellipsis-h"></i></div>
+            </div>
+          </div>
+          <br>
+          <div class= "card">
+            <div class= "d-flex p-1">
+              <h6>Stories</h6> <a href= "#" class= "float-right ml-auto">See all</a>
+            </div>
+            <div class= "d-flex">
+              <img src= "images used/user.jpg" alt= "person pic" class= "storiesPic">
+              <img src= "images used/user.jpg" alt= "person pic" class= "storiesPic">
+              <img src= "images used/user.jpg" alt= "person pic" class= "storiesPic">
+            </div>
+          </div>
+          <br>
+          <!-- post -->
+          <div class= "card">
+            <div class= "card-header">
+              <img src= "images used/numbers-09.jpg" alt= "user profile picture" class= "createPostPic">
+              <a href= "#">Friend Name</a>
+              <div class= "d-flex">
+                <div class= "timePosted text-muted">2 hrs</div> &ThickSpace; <i class= "fa fa-globe"></i>
+              </div>
+              <br>
+              Post Caption
+              <div class= "card-body">
+                <div class= "card-img">
+                  <img src= "images used/numbers-01.jpg" alt= "posted image" class= "postedPic">
+                  <img src= "images used/numbers-02.jpg" alt= "posted image" class= "postedPic">
+                </div>
+                <hr>
+                <div class= "d-flex">
+                  <i class= "fa fa-thumbs-up"></i>&ThickSpace; You and 200 others <div class= "float-right ml-auto">50 Comments</div>
+                </div>
+                <hr>
+                <div class= "container text-center">
+                  <a href= "#"><i class= "fa fa-thumbs-up"></i> Like</a> &ThickSpace; &ThickSpace; <a href= "#"><i class= "fa fa-comment"></i> Comment</a> &ThickSpace; &ThickSpace; <a href= "#"><i class= "fa fa-share"></i> Share</a>
+                </div>
+                <hr>
+                <a href= "#">View all comments</a>
+                <br>
+                <div class= "d-flex">
+                  <img src= "images used/numbers-12.jpg" alt= "user profile picture" class= "createPostPic"> &ThickSpace; <input type= "text" class= "form-control" placeholder= "Write a comment...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <!-- PEOPLE YOU MAY KNOW -->
+          <div class= "card p-1">
+            People You May Know
+            <br>
+            <div class= "card-body">
+              <div class= "d-flex">
+                <div class= "card mx-1">
+                  <div class= "card-body p-0">
+                    <img src= "images used/user.jpg" alt= "person" class= "card-img card-img-top img-fluid">
+                  </div>
+                  <div class= "card-footer p-1">
+                    <a href= "#">Person Name</a>
+                    <br>
+                    <div class= "text-muted">10 mutual friends</div>
+                    <button class= "btn btn-outline-secondary btn-sm"><i class= "fa fa-user-plus"></i>&ThickSpace; Add Friend</button>
+                  </div>
+                </div>
+                <div class= "card mx-1">
+                  <div class= "card-body p-0">
+                    <img src= "images used/user.jpg" alt= "person" class= "card-img card-img-top img-fluid">
+                  </div>
+                  <div class= "card-footer p-1">
+                    <a href= "#">Person Name</a>
+                    <br>
+                    <div class= "text-muted">25 mutual friends</div>
+                    <button class= "btn btn-outline-secondary btn-sm"><i class= "fa fa-user-plus"></i>&ThickSpace; Add Friend</button>
+                  </div>
+                </div>
+                <div class= "card mx-1">
+                  <div class= "card-body p-0">
+                    <img src= "images used/user.jpg" alt= "person" class= "card-img card-img-top img-fluid">
+                  </div>
+                  <div class= "card-footer p-1">
+                    <a href= "#">Person Name</a>
+                    <br>
+                    <div class= "text-muted">15 mutual friends</div>
+                    <button class= "btn btn-outline-secondary btn-sm"><i class= "fa fa-user-plus"></i>&ThickSpace; Add Friend</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class= "text-muted text-center"><a href= "#">See All</a></div>
+          </div>
+          <br>
+          <div class= "card">
+            <div class= "card-header">
+              <img src= "images used/numbers-01.jpg" alt= "user profile picture" class= "createPostPic">
+              <a href= "#">Brand Name</a>
+              <div class= "d-flex">
+                <div class= "timePosted text-muted">5 hrs</div> &ThickSpace; <i class= "fa fa-cog"></i>
+              </div>
+              <br>
+              Post Caption
+              <div class= "card-body">
+                <div class= "card-img">
+                  <img src= "images used/numbers-06.jpg" alt= "posted image" class= "postedPic">
+                  <img src= "images used/numbers-09.jpg" alt= "posted image" class= "postedPic">
+                </div>
+              </div>
+              <div class= "card-footer"><button class= "btn btn-outline-primary"><i class= "fa fa-thumbs-up"></i>&ThickSpace; Like Page</button></div>
+            </div>
+          </div>
+          <br>
+          <div class= "card">
+            <div class= "card-header text-muted morePosts">More Posts</div>
+          </div>
+          <br>
+        </div>
+
+        <!-- FRIEND REQUESTS, NEWS, AND FOOTER -->
+        <div class= "col-sm-3">
+          <div class= "card p-1">
+            <div>
+              <div class= "d-flex">
+                <h6 class= "mayKnow text-muted"><b>People You May Know</b></h6> <a href= "#" class= "float-right ml-auto">See All</a>
+              </div>
+              <br>
+              <div class= "d-flex justify-content-center">
+                <img class= "mayKnowImage" src= "images used/numbers-01.jpg" alt= "pic">
+                <div>
+                  <a href= "#">Person Name</a>
+                  <div class= "text-muted">10 mutual friends</div>
+                  <button class= "btn btn-outline-secondary btn-sm"><i class= "fa fa-user-plus"></i> Add Friend</button> &ThickSpace; <button class= "btn btn-outline-secondary btn-sm">Remove</button>
+                </div>
+              </div>
+              <br>
+              <div class= "d-flex">
+                <img class= "mayKnowImage" src= "images used/numbers-06.jpg" alt= "pic">
+                <div>
+                  <a href= "#">Person Name 2</a>
+                  <div class= "text-muted">20 mutual friends</div>
+                  <button class= "btn btn-outline-secondary btn-sm"><i class= "fa fa-user-plus"></i> Add Friend</button> &ThickSpace; <button class= "btn btn-outline-secondary btn-sm">Remove</button>
+                </div>
+              </div>
+              <br>
+              <div class= "d-flex">
+                <img class= "mayKnowImage" src= "images used/numbers-09.jpg" alt= "pic">
+                <div>
+                  <a href= "#">Person Name 3</a>
+                  <div class= "text-muted">15 mutual friends</div>
+                  <button class= "btn btn-outline-secondary btn-sm"><i class= "fa fa-user-plus"></i> Add Friend</button> &ThickSpace; <button class= "btn btn-outline-secondary btn-sm">Remove</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <footer>
+            <div>
+              <div class= "card pt-2">
+                <ul class= "footerItems">
+                  <li class= "text-muted">English (US)</li>
+                  <li><a href= "#">Hausa</a></li>
+                  <li><a href= "#">Francais (France)</a></li>
+                  <li><a href= "#">Portugues (Brasil)</a></li>
+                  <li><a href= "#">Espanol</a></li>
+                  <li><button>&plus;</button></li>
+                </ul>
+              </div>
+            </div>
+            <br>
+            <div>
+              <ul class= "footerLinks">
+                <li><a href= "#" class= "text-muted">Privacy</a></li>
+                <li><a href= "#" class= "text-muted">Terms</a></li>
+                <li><a href= "#" class= "text-muted">Advertising</a></li>
+                <li><a href= "#" class= "text-muted">Ad Choices <i class= "fa fa-play"></i></a></li>
+                <li><a href= "#" class= "text-muted">Cookies</a></li>
+                <li><a href= "index.html" class= "text-muted">Log Out</a></li>
+                <li><a href= "#" class= "text-muted">More <i class= "fa fa-chevron-down"></i></a></li>
+              </ul>
+              <div class= "text-center">Facebook &copy; 2020</div>
+            </div>
+          </footer>
+        </div>
+
+        <!-- CHATS -->
+        <div class= "col-sm-2">
+          <div class= "row mb-2">
+            <img class= "chatsImage" src= "images used/numbers-01.jpg" alt= "pic"> &ThickSpace; <a class= "text-muted" href= "#">Person Chat</a>
+          </div>
+          <div class= "row mb-2">
+            <img class= "chatsImage" src= "images used/numbers-02.jpg" alt= "pic"> &ThickSpace; <a class= "text-muted" href= "#">Person Chat</a>
+          </div>
+          <div class= "row mb-2">
+            <img class= "chatsImage" src= "images used/numbers-06.jpg" alt= "pic"> &ThickSpace; <a class= "text-muted" href= "#">Person Chat</a>
+          </div>
+          <div class= "row mb-2">
+            <img class= "chatsImage" src= "images used/numbers-09.jpg" alt= "pic"> &ThickSpace; <a class= "text-muted" href= "#">Person Chat</a>
+          </div>
+          <div class= "row mb-2">
+            <img class= "chatsImage" src= "images used/numbers-12.jpg" alt= "pic"> &ThickSpace; <a class= "text-muted" href= "#">Person Chat</a>
+          </div>
+          <h6 class= "text-muted"><b>Group Conversations</b></h6>
+          <div class= "row mb-2">
+            <i class= "fa fa-group m-1"></i> &ThickSpace; <a href= "#">Create New Group</a>
+          </div>
+          <div class= "row">
+            <input type= "search" class= "form-control" placeholder= "Search">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

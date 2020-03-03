@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang= "en">
+  <head>
+    <meta charset= "UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content= "ie=edge">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <meta name= "description" content= "GSE301 Project Group 4, Front End of Facebook">
+    <link rel= "stylesheet" href= "styling/bootstrap.min.css">
+    <link rel= "stylesheet" href= "styling/myStyle.css">
+    <title>Facebook Clone</title>
+  </head>
+  <body>
+    <nav class= "navbar navbar-expand-lg navbar-light bg-facebook-blue text-light mb-4">
+      <div class= "container">
+        <a class= "navbar-brand nav-link text-light logo" href= "index.html"><h1><b>facebook</b></h1></a>
+        <a class= "nav-link" href= "createAccount.html"><div class= "btn btn-success">Create New Account</div></a>
+      </div>
+    </nav>
+    <div class= "container" id= "mainContent">
+      <form action= "userMain.html" method= "GET" role= "form">
+        <h5 class= "h5 text-center">Log in to Facebook</h5> <br>
+        <div class= "form-group">
+          <input type= "text" name= "emailField" id= "" placeholder= "Email or phone number" class= "form-control" required>
+        </div>
+        <div class= "form-group">
+          <input type= "password" name= "passwordField" id= "" placeholder= "Password" class= "form-control" required>
+        </div>
+        <input type= "submit" name= "submitButton" id= "" value= "Log In" class= "btn bg-facebook-blue form-control">
+        <br> <br>
+        <div class= "text-center"><a href= "forgotPwd.html">Forgotten account?</a></div>
+        <div class= "d-flex"><hr width= "45%">or<hr width= "45%"></div>
+        <a class= "btn btn-success form-control" href= "createAccount.html">Create New Account</a>
+      </form>
+    </div>
+    <footer class= "footer">
+      <div class="container">
+        <ul class= "d-flex">
+          <li><a class= "text-muted" href= "#">English (UK)</a></li>
+          <li><a href= "#">Hausa</a></li>
+          <li><a href= "#">Francais</a></li>
+          <li><a href= "#">Potugues</a></li>
+          <li><a href= "#">Espanol</a></li>
+          <li><a href= "#">Bahasa Indonesia</a></li>
+          <li><a href= "#">Deutsch</a></li>
+          <li><a href= "#">Italiano</a></li>
+          <li><button>&plus;</button></li>
+        </ul>
+        <hr>
+        <ul class= "d-flex">
+          <li><a href= "createAccount.html">Sign Up</a></li>
+          <li><a href= "#">Log In</a></li>
+          <li><a href= "#">Messenger</a></li>
+          <li><a href= "#">Facebook Lite</a></li>
+          <li><a href= "#">Services</a></li>
+          <li><a href= "#">About</a></li>
+          <li><a href= "#">Terms and Conditions</a></li>
+          <li><a href= "#">Help</a></li>
+        </ul>
+        <br>
+        <div class= "copyright">Facebook &copy; 2020</div>
+      </div>
+    </footer>
+  </body>
+</html>

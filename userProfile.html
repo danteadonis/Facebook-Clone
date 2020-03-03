@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang= "en">
+  <head>
+    <meta charset= "UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content= "ie=edge">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <meta name= "description" content= "GSE301 Project Group 4, Front End of Facebook">
+    <link rel= "stylesheet" href= "styling/bootstrap.min.css">
+    <link rel= "stylesheet" href= "plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel= "stylesheet" href= "styling/myStyle.css">
+    <title>User Profile | Facebook Clone</title>
+  </head>
+  <body>
+    <nav class= "navbar navbar-expand-lg navbar-light bg-facebook-blue text-light mb-2">
+      <div class= "container-fluid">
+        <a href= "userMain.html" class= "text-light"><i class= "fa fa-facebook"></i></a>&ThickSpace; &ThickSpace;
+        <div class= "form-inline">
+          <input type= "search" name= "" class= "form-control" id= "" placeholder= "User"> &ThickSpace; <a href= "#" id= "searchIcon"> <i class= "fa fa-search"></i> </a>
+        </div>
+        <ul class= "nav navbar-nav navbar-right d-flex ml-auto">
+          <li class= "nav-item active"><a href= "#"> <img src= "images used/numbers-12.jpg" alt= "user profile picture" id= "navPic">User </a></li>
+          <li class= "nav-item"><a href= "userMain.html">Home</a></li>
+          <li class= "nav-item"><a href= "#">Create</a></li>
+          <li class= "nav-item"><a href= "#"><i class= "fa fa-group"></i></a></li>
+          <li class= "nav-item"><a href= "#"><i class= "fa fa-envelope-open"></i></a></li>
+          <li class= "nav-item"><a href= "#"><i class= "fa fa-bell"></i></a></li>
+          <li class= "nav-item"><a href= "#"><i class= "fa fa-question"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class= "container-fluid row px-4" id= "profileDetails">
+      <div class= "d-flex" id= "profileContent">
+        <div class= "col-sm-8">
+          <div class= "row">
+            <!-- PROFILE HEADER -->
+            <div class= "card">
+              <div class= "card-body">
+                <img src= "images used/numbers-09.jpg" alt= "cover image" class= "card-img img-fluid" id= "coverImg">
+                <img src= "images used/numbers-12.jpg" alt= "profile picture" class= "card-img-overlay p-0" id= "profilePic">
+                <h4 class= "text-center"><b>User</b></h4>
+              </div>
+              <div class= "card-footer">
+                <div class= "d-flex justify-content-center">
+                  <button class= "btn btn-link"><a href= "#">Timeline  <i class= "fa fa-chevron-down"></i></a></button>
+                  <button class= "btn btn-link"><a href= "#">About</a></button>
+                  <button class= "btn btn-link"><a class= "d-flex" href= "#">Friends &ThickSpace;<span class= "text-muted friendsCount">500</span></a></button>
+                  <button class= "btn btn-link"><a href= "#">Photos</a></button>
+                  <button class= "btn btn-link"><a href= "#"><i class= "fa fa-lock"></i> Archive</a></button>
+                  <button class= "btn btn-link"><a href= "#">More <i class= "fa fa-chevron-down"></i></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class= "row">
+            <!-- SIDE CONTENT -->
+            <div class= "col-sm-5 pl-0" id= "extraInfo">
+              <div class= "card p-1">
+                <div class= "d-flex">
+                  <i class= "fa fa-globe"></i>&ThickSpace; Intro
+                </div>
+                <br>
+                <div>
+                  <div class= "text-center">
+                    <i class= "fa fa-comment"></i>
+                    <br>
+                    <div class= "text-muted" id= "bioText">Add a short bio to tell people more about yourself.</div>
+                    <br>
+                    <a href= "#">Add Bio</a>
+                  </div>
+                  <hr>
+                  <i class= "fa fa-graduation-cap"></i> Studies ... at <a href= "https://unilorin.edu.ng">University Of Ilorin, Kwara State Nigeria</a>
+                  <br>
+                  <i class= "fa fa-home"></i> Lives in <a href= "#">Abuja</a>
+                  <br>
+                  <i class= "fa fa-map-marker"></i> From <a href= "#">Nigeria</a>
+                  <br>
+                  <i class= "fa fa-heart"></i> Single
+                  <br>
+                  <i class= "fa fa-feed"></i> Followed by <a href= "#">70 people</a>
+                  <br>
+                  <button class= "btn btn-outline-primary btn-sm form-control">Edit Details</button>
+                  <br> <br>
+                  <div class= "row d-flex justify-content-center">
+                    <img class= "displayImgs" src= "images used/numbers-01.jpg" alt= "image 1">
+                    <img class= "displayImgs" src= "images used/numbers-02.jpg" alt= "image 2">
+                    <img class= "displayImgs" src= "images used/numbers-06.jpg" alt= "image 3">
+                    <img class= "displayImgs" src= "images used/numbers-09.jpg" alt= "image 4">
+                    <img class= "displayImgs" src= "images used/numbers-12.jpg" alt= "image 5">
+                  </div>
+                  <br>
+                  <button class= "btn btn-outline-primary btn-sm form-control">Edit Featured</button>
+                </div>
+              </div>
+              <br>
+              <div class= "card p-1" id= "profileFriends">
+                <div>
+                  <i class= "fa fa-group"></i>&ThickSpace; Friends <span class= "text-muted friendsCount">500</span>
+                  <span class= "float-right text-muted friendsCount"><a href= "#">Find Friends</a></span>
+                </div>
+                <div class= "d-flex justify-content-center">
+                  <div>
+                    <img src= "images used/numbers-09.jpg" alt= "image 1" class= "friendImgs">
+                    <br>
+                    <a href= "#">Person Name</a>
+                  </div>
+                  <div>
+                    <img src= "images used/numbers-09.jpg" alt= "image 2" class= "friendImgs">
+                    <br>
+                    <a href= "#">Person Name</a>
+                  </div>
+                  <div>
+                    <img src= "images used/numbers-09.jpg" alt= "image 3" class= "friendImgs">
+                    <br>
+                    <a href= "#">Person Name</a>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <!-- footer copied from userMain page -->
+              <div>
+                <footer>
+                  <div class= "card">
+                    <div class= "card pt-2">
+                      <ul class= "footerItems">
+                        <li class= "text-muted">English (US)</li>
+                        <li><a href= "#">Hausa</a></li>
+                        <li><a href= "#">Francais (France)</a></li>
+                        <li><a href= "#">Portugues (Brasil)</a></li>
+                        <li><a href= "#">Espanol</a></li>
+                        <li><button>&plus;</button></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <br>
+                  <div>
+                    <ul class= "footerLinks">
+                      <li><a href= "#" class= "text-muted">Privacy</a></li>
+                      <li><a href= "#" class= "text-muted">Terms</a></li>
+                      <li><a href= "#" class= "text-muted">Advertising</a></li>
+                      <li><a href= "#" class= "text-muted">Ad Choices <i class= "fa fa-play"></i></a></li>
+                      <li><a href= "#" class= "text-muted">Cookies</a></li>
+                      <li><a href= "index.html" class= "text-muted">Log Out</a></li>
+                      <li><a href= "#" class= "text-muted">More <i class= "fa fa-chevron-down"></i></a></li>
+                    </ul>
+                    <div class= "text-center">Facebook &copy; 2020</div>
+                  </div>
+                </footer>
+              </div>
+              <br>
+            </div>
+            <!-- MAIN CONTENT -->
+            <div class= "col-sm-8 mb-4 p-0" id= "mainPosts">
+              <!-- this card was copied from the userMain page and modified slightly -->
+              <div class= "card">
+                <div class= "card-header d-flex pb-4" id= "createPostHeader">
+                  <a class= "text-muted" href= "#"><i class= "fa fa-pencil"></i> Create Post</a>&ThickSpace; &ThickSpace;
+                  <a class= "text-muted" href= "#"><i class= "fa fa-camera"></i> Photo/Video</a>&ThickSpace; &ThickSpace;
+                  <a class= "text-muted" href= "#"><i class= "fa fa-video-camera"></i> Live Video</a>&ThickSpace; &ThickSpace;
+                  <a class= "text-muted" href= "#"><i class= "fa fa-flag"></i> Life Event</a>
+                </div>
+                <div class= "card-body d-flex p-1">
+                  <img src= "images used/numbers-12.jpg" alt= "user profile picture" class= "createPostPic">
+                  <textarea name= "statusPost" cols= "52" rows= "3" placeholder= "What's on your mind, User?"></textarea>
+                </div>
+                <div class= "card-footer d-flex">
+                  <div class= "postEnhance"><i class= "fa fa-photo"></i> Photo/Video</div>&ThickSpace; &ThickSpace;
+                  <div class= "postEnhance"><i class= "fa fa-tag"></i> Tag Friends</div>&ThickSpace; &ThickSpace;
+                  <div class= "postEnhance"><i class= "fa fa-smile-o"></i> Feeling/Activity</div>&ThickSpace; &ThickSpace;
+                  <div class= "postEnhance"><i class= "fa fa-ellipsis-h"></i></div>
+                </div>
+              </div>
+              <br>
+              <div>
+                <span class= "text-muted">Posts</span> <span class= "float-right">
+                  <button><i class= "fa fa-cog"></i> Manage Posts</button>
+                  <button><a href= "#"><i class= "fa fa-bars"></i> List View</a></button>
+                  <button><i class= "fa fa-th"></i> Grid View</button>
+                </span>
+              </div>
+              <br>
+              <!-- copied from userMain page then modified, because they're basically the same -->
+              <!-- POST -->
+              <div class= "card">
+                <div class= "card-header">
+                  <img src= "images used/numbers-12.jpg" alt= "user profile picture" class= "createPostPic">
+                  <a href= "#">User</a>
+                  <div class= "d-flex">
+                    <div class= "timePosted text-muted">30 mins</div> &ThickSpace; <i class= "fa fa-globe"></i>
+                  </div>
+                  <br>
+                  Post Caption
+                  <div class= "card-body">
+                    <div class= "card-img">
+                      <img src= "images used/numbers-01.jpg" alt= "posted image" class= "postedPic">
+                      <img src= "images used/numbers-02.jpg" alt= "posted image" class= "postedPic">
+                    </div>
+                    <hr>
+                    <div class= "d-flex">
+                      <i class= "fa fa-thumbs-up"></i>&ThickSpace; You and 200 others <div class= "float-right ml-auto">50 Comments</div>
+                    </div>
+                    <hr>
+                    <div class= "container text-center">
+                      <a href= "#"><i class= "fa fa-thumbs-up"></i> Like</a> &ThickSpace; &ThickSpace; <a href= "#"><i class= "fa fa-comment"></i> Comment</a> &ThickSpace; &ThickSpace; <a href= "#"><i class= "fa fa-share"></i> Share</a>
+                    </div>
+                    <hr>
+                    <a href= "#">View all comments</a>
+                    <br>
+                    <div class= "d-flex">
+                      <img src= "images used/numbers-12.jpg" alt= "user profile picture" class= "createPostPic"> &ThickSpace; <input type= "text" class= "form-control" placeholder= "Write a comment...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <!-- ANOTHER POST -->
+              <div class= "card">
+                <div class= "card-header">
+                  <img src= "images used/numbers-12.jpg" alt= "user profile picture" class= "createPostPic">
+                  <a href= "#">User</a>
+                  <div class= "d-flex">
+                    <div class= "timePosted text-muted">2 days</div> &ThickSpace; <i class= "fa fa-globe"></i>
+                  </div>
+                  <br>
+                  Post Caption
+                  <div class= "card-body">
+                    <div class= "card-img">
+                      <img src= "images used/numbers-06.jpg" alt= "posted image" class= "postedPic">
+                      <img src= "images used/numbers-09.jpg" alt= "posted image" class= "postedPic">
+                    </div>
+                    <hr>
+                    <div class= "d-flex">
+                      <i class= "fa fa-thumbs-up"></i>&ThickSpace; A friend and 300 others <div class= "float-right ml-auto">90 Comments</div>
+                    </div>
+                    <hr>
+                    <div class= "container text-center">
+                      <a href= "#"><i class= "fa fa-thumbs-up"></i> Like</a> &ThickSpace; &ThickSpace; <a href= "#"><i class= "fa fa-comment"></i> Comment</a> &ThickSpace; &ThickSpace; <a href= "#"><i class= "fa fa-share"></i> Share</a>
+                    </div>
+                    <hr>
+                    <a href= "#">View all comments</a>
+                    <br>
+                    <div class= "d-flex">
+                      <img src= "images used/numbers-12.jpg" alt= "user profile picture" class= "createPostPic"> &ThickSpace; <input type= "text" class= "form-control" placeholder= "Write a comment...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class= "card">
+                <div class= "card-header text-muted morePosts">More Posts</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CHATS SECTIOIN, copied from userMain page. -->
+        <div class= "col-sm-4 float-right ml-4">
+          <div class= "row mb-2">
+            <img class= "chatsImage" src= "images used/numbers-01.jpg" alt= "pic"> &ThickSpace; <a class= "text-muted" href= "#">Person Chat</a>
+          </div>
+          <div class= "row mb-2">
+            <img class= "chatsImage" src= "images used/numbers-02.jpg" alt= "pic"> &ThickSpace; <a class= "text-muted" href= "#">Person Chat</a>
+          </div>
+          <div class= "row mb-2">
+            <img class= "chatsImage" src= "images used/numbers-06.jpg" alt= "pic"> &ThickSpace; <a class= "text-muted" href= "#">Person Chat</a>
+          </div>
+          <div class= "row mb-2">
+            <img class= "chatsImage" src= "images used/numbers-09.jpg" alt= "pic"> &ThickSpace; <a class= "text-muted" href= "#">Person Chat</a>
+          </div>
+          <div class= "row mb-2">
+            <img class= "chatsImage" src= "images used/numbers-12.jpg" alt= "pic"> &ThickSpace; <a class= "text-muted" href= "#">Person Chat</a>
+          </div>
+          <h6 class= "text-muted"><b>Group Conversations</b></h6>
+          <div class= "row mb-2">
+            <i class= "fa fa-group m-1"></i> &ThickSpace; <a href= "#">Create New Group</a>
+          </div>
+          <div class= "row">
+            <input type= "search" class= "form-control" placeholder= "Search">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

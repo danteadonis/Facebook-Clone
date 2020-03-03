@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang= "en">
+  <head>
+    <meta charset= "UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content= "ie=edge">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <meta name= "description" content= "GSE301 Project Group 4, Front End of Facebook">
+    <link rel= "stylesheet" href= "styling/bootstrap.min.css">
+    <link rel= "stylesheet" href= "styling/myStyle.css">
+    <title>Forgotten Password | Facebook Clone</title>
+  </head>
+  <body>
+    <nav class= "navbar navbar-expand-lg navbar-light bg-facebook-blue text-light mb-4">
+      <div class= "container">
+        <a class= "navbar-brand nav-link text-light logo" href= "index.html"><h1><b>facebook</b></h1></a>
+        <form action= "userMain.html" method= "GET" class= "form-inline headerForm" role= "form">
+          <div class= "form-group">
+            <label for= "email">Email or phone</label>&ThickSpace;
+            <input type= "email" name= "signInEmail" id="" required>
+          </div>&ThickSpace;
+          <div class= "form-group">
+            <label for= "password">Password</label>&ThickSpace;
+            <input type= "password" name= "signInPassword" id="" required>
+            <a class= "nav-link" href= "forgotPwd.html">Forgotten password?</a>
+          </div>
+          <input type= "submit" name= "signIn" value= "Log In" class= "btn btn-sm bg-primary text-light" id="">
+        </form>
+      </div>
+    </nav>
+    <div id= "findAcct">
+      <h6><b>Find Your Account</b></h6>
+      <hr>
+      <form action= "#" method= "GET">
+        <div class= "container">
+          <div id= "infoText">Please enter your email address or phone number to search for your account.</div>
+          <br>
+          <input type= "email" name= "findEmail" class= "form-control" id= "" placeholder= "Email or phone number" required>
+        </div>
+        <hr>
+        <div class= "float-right d-flex">
+          <input type= "submit" class= "btn btn-sm bg-facebook-blue" value= "Search">&ThickSpace;
+          <input type= "button" class= "btn btn-sm btn-outline-dark" value= "Cancel">
+        </div>
+      </form>
+    </div>
+    <footer class= "footer">
+      <div class="container">
+        <ul class= "d-flex">
+          <li><a class= "text-muted" href= "#">English (UK)</a></li>
+          <li><a href= "#">Hausa</a></li>
+          <li><a href= "#">Francais</a></li>
+          <li><a href= "#">Potugues</a></li>
+          <li><a href= "#">Espanol</a></li>
+          <li><a href= "#">Bahasa Indonesia</a></li>
+          <li><a href= "#">Deutsch</a></li>
+          <li><a href= "#">Italiano</a></li>
+          <li><button>&plus;</button></li>
+        </ul>
+        <hr>
+        <ul class= "d-flex">
+          <li><a href= "createAccount.html">Sign Up</a></li>
+          <li><a href= "#">Log In</a></li>
+          <li><a href= "#">Messenger</a></li>
+          <li><a href= "#">Facebook Lite</a></li>
+          <li><a href= "#">Services</a></li>
+          <li><a href= "#">About</a></li>
+          <li><a href= "#">Terms and Conditions</a></li>
+          <li><a href= "#">Help</a></li>
+        </ul>
+        <br>
+        <div class= "copyright">Facebook &copy; 2020</div>
+      </div>
+    </footer>
+  </body>
+</html>

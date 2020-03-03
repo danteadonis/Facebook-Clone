@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang= "en">
+  <head>
+    <meta charset= "UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content= "ie=edge">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <meta name= "description" content= "GSE301 Project Group 4, Front End of Facebook">
+    <link rel= "stylesheet" href= "styling/bootstrap.min.css">
+    <link rel= "stylesheet" href= "styling/myStyle.css">
+    <title>Create Account | Facebook Clone</title>
+  </head>
+  <body>
+    <nav class= "navbar navbar-expand-lg navbar-light bg-facebook-blue text-light mb-4">
+      <div class= "container">
+        <a class= "navbar-brand nav-link text-light logo" href= "index.html"><h1><b>facebook</b></h1></a>
+        <form action= "userMain.html" method= "GET" class= "form-inline headerForm" role= "form">
+          <div class= "form-group">
+            <label for= "email">Email or phone</label>&ThickSpace;
+            <input type= "email" name= "signInEmail" id="" required>
+          </div>&ThickSpace;
+          <div class= "form-group">
+            <label for= "password">Password</label>&ThickSpace;
+            <input type= "password" name= "signInPassword" id="" required>
+            <a class= "nav-link" href= "forgotPwd.html">Forgotten password?</a>
+          </div>
+          <input type= "submit" name= "signIn" value= "Log In" class= "btn btn-sm bg-primary text-light" id="">
+        </form>
+      </div>
+    </nav>
+    <div class= "createAccount container">
+      <h1><b>Create a new account</b></h1>
+      <h4 class="text-muted">It's quick and easy.</h4>
+      <form action= "#" method= "GET" role= "form">
+        <div class= "form-inline form-group">
+          <input type= "text" name= "firstNameField" class= "form-control" id="" placeholder= "First name" required> &ThinSpace;
+          <input type= "text" name= "surnameField" class= "form-control" id="" placeholder= "Surname" required>
+        </div>
+        <div class= "form-group">
+          <input type= "email" name= "emailField" class= "form-control" id="" placeholder= "Mobile number or email address" required>
+        </div>
+        <div class= "form-group">
+          <input type= "password" name= "passwordField" class= "form-control" id="" placeholder= "New password" required>
+        </div>
+        <h4 class= "text-muted moreInfo"><b>Birthday</b></h4>
+        <input type= "date" name= "dateField" class= "form-control" id="">
+        <br>
+        <h4 class= "text-muted moreInfo"><b>Gender</b></h4>
+        <div class= "form-inline form-group">
+          <input type= "radio" name= "genderRadio" value= "Female" class= "form-control" id="">Female &ThickSpace;
+          <input type= "radio" name= "genderRadio" value= "Male" class= "form-control" id="">Male &ThickSpace;
+          <input type= "radio" name= "genderRadio" class= "form-control" id="">Custom
+        </div>
+        <div class= "confirmText text-muted">By clicking Sign Up, you agree to our <a href= "#">Terms, Data Policy</a> and 
+          <a href= "#">Cookie Policy.</a> You may recieve SMS notifications from us and can opt out at any time.
+        </div>
+        <br>
+        <input type= "submit" name= "signupButton" class= "btn btn-lg btn-success" value= "Sign Up" id="">
+      </form>
+      <br>
+    </div>
+    <footer class= "footer">
+      <div class="container">
+        <ul class= "d-flex">
+          <li><a class= "text-muted" href= "#">English (UK)</a></li>
+          <li><a href= "#">Hausa</a></li>
+          <li><a href= "#">Francais</a></li>
+          <li><a href= "#">Potugues</a></li>
+          <li><a href= "#">Espanol</a></li>
+          <li><a href= "#">Bahasa Indonesia</a></li>
+          <li><a href= "#">Deutsch</a></li>
+          <li><a href= "#">Italiano</a></li>
+          <li><button>&plus;</button></li>
+        </ul>
+        <hr>
+        <ul class= "d-flex">
+          <li><a href= "createAccount.html">Sign Up</a></li>
+          <li><a href= "#">Log In</a></li>
+          <li><a href= "#">Messenger</a></li>
+          <li><a href= "#">Facebook Lite</a></li>
+          <li><a href= "#">Services</a></li>
+          <li><a href= "#">About</a></li>
+          <li><a href= "#">Terms and Conditions</a></li>
+          <li><a href= "#">Help</a></li>
+        </ul>
+        <br>
+        <div class= "copyright">Facebook &copy; 2020</div>
+      </div>
+    </footer>
+  </body>
+</html>
